@@ -308,8 +308,12 @@
 
 // document.querySelector('header').style.color = "black";
 
-function changeButtonToGreen() {
-    document.querySelector('#button1').style.backgroundColor = "green"
-}
+// function changeButtonToGreen() {
+//     document.querySelector('#button1').style.backgroundColor = "green"
+// }
 
-500
+
+// hoe to change class names/ toggle side bar
+function toggleSideBar() {
+  document.querySelector('body').classList.toggle("open")
+}
