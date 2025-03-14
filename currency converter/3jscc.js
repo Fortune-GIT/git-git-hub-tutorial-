@@ -311,3 +311,5 @@
 function changeButtonToGreen() {
     document.querySelector('#button1').style.backgroundColor = "green"
 }
+
+500
